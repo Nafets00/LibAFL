@@ -503,6 +503,7 @@ macro_rules! fuzz_with {
                 cm_std_power,
                 cc_std_power,
                 cc_power,
+                grimoire,
             );
 
             $operation(&$options, &mut fuzzer, &mut stages, &mut executor, &mut state, &mut mgr)
